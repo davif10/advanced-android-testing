@@ -31,15 +31,15 @@ ext {
 
     // App dependencies
     androidXVersion = '1.0.0'
-    androidXTestCoreVersion = '1.3.0'
-    androidXTestExtKotlinRunnerVersion = '1.1.3'
+    androidXTestCoreVersion = '1.5.0'
+    androidXTestExtKotlinRunnerVersion = '1.1.5'
     androidXTestRulesVersion = '1.2.0'
     androidXAnnotations = '1.7.1'
     appCompatVersion = '1.6.1'
     archLifecycleVersion = '2.7.0'
     coroutinesVersion = '1.7.3'
     cardVersion = '1.0.0'
-    espressoVersion = '3.4.0'
+    espressoVersion = '3.5.1'
     fragmentKtxVersion = '1.4.0'
     junitVersion = '4.13.2'
     materialVersion = '1.11.0'
