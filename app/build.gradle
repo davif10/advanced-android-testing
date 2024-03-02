@@ -38,6 +38,10 @@ android {
     testOptions.unitTests {
         includeAndroidResources = true
     }
+
+    dexOptions {
+        javaMaxHeapSize "4G"
+    }
 }
 
 dependencies {
@@ -66,7 +70,9 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
 
     testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
+    testImplementation "org.hamcrest:hamcrest-library:$hamcrestVersion"
     testImplementation "org.robolectric:robolectric:$robolectricVersion"
+    testImplementation "androidx.arch.core:core-testing:$archTestingVersion"
 
     // AndroidX Test - Instrumented testing
     androidTestImplementation "androidx.test.ext:junit:$androidXTestExtKotlinRunnerVersion"
