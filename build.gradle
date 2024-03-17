@@ -51,4 +51,6 @@ ext {
     robolectricVersion = '4.11.1'
     archTestingVersion = '2.2.0'
     fragmentVersion = '1.6.2'
+    mockitoVersion = '5.10.0'
+    dexMakerVersion = '2.28.3'
 }
